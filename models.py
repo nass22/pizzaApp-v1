@@ -10,3 +10,6 @@ class Pizza:
         self.ingredients = ingredients
         self.prix = prix
         self.vegetarienne = vegetarienne
+        
+     def get_dictionnary(self):
+        return { "nom": self.nom, "ingrédients": self.ingredients, "prix": self.prix, "végétarienne": self.vegetarienne}

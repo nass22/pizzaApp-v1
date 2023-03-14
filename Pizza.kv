@@ -1,1 +1,23 @@
 MainWidget:
+
+<MainWidget>:
+    recycleView: recycleView_id #afin de pouvour l'utiliser dans le code (main.py), on passe à recycleView l'id du recycleView
+    RecycleView:
+        id: recycleView_id
+        viewclass: 'PizzaWidget' #on met le nom du PizzaWidget auquel il se rapporte
+        RecycleBoxLayout:
+            default_size: None, dp(56)
+            default_size_hint: 1, None
+            size_hint_y: None
+            height: self.minimum_height
+            orientation: 'vertical'
+
+<PizzaWidget>:
+    Label:
+	    text: root.nom
+    Label:
+	    text: root.ingredients
+    Label:
+	    text: root.prix
+    Label:
+	    text: root.vegetarienne
