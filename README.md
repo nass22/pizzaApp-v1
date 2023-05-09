@@ -1,5 +1,6 @@
 ## pizzaApp-v1
 
 Exercice from a Udemy course.
-Creation of a website for a pizzeria with its menu
+<br>
+Creation of an app for a pizzeria
 
